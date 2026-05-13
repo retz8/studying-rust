@@ -1,0 +1,16 @@
+# Rust build artifacts (any depth — covers projects/*/target/)
+**/target/
+
+# Direct rustc output (for non-Cargo experiments like hello_world/)
+projects/hello_world/main
+
+# rustfmt backups
+**/*.rs.bk
+
+# macOS
+.DS_Store
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
